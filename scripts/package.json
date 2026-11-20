@@ -1,0 +1,16 @@
+{
+  "name": "outline-mindmap-zh-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runtime deps for 大纲一键转思维导图 (Kevin技能工坊). Pins @markmap/cli.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test ../tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@markmap/cli": "1.0.0"
+  }
+}
